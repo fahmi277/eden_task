@@ -13,13 +13,13 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  // runApp(const Splash());
-  runApp(GetMaterialApp(
-    debugShowCheckedModeBanner: false,
-    title: "Application",
-    initialRoute: AppPages.INITIAL,
-    getPages: AppPages.routes,
-  ));
+  runApp(const Splash());
+  // runApp(GetMaterialApp(
+  //   debugShowCheckedModeBanner: false,
+  //   title: "Application",
+  //   initialRoute: AppPages.INITIAL,
+  //   getPages: AppPages.routes,
+  // ));
 }
 
 class Splash extends StatelessWidget {

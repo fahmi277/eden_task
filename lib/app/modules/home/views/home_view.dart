@@ -19,31 +19,31 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     final List<DeveloperSeries> data = [
-      DeveloperSeries(
-        year: "1",
-        developers: listWeigth.value[listWeigth.length - 1].beratBadan,
-        barColor: charts.ColorUtil.fromDartColor(Colors.lightBlue),
-      ),
-      DeveloperSeries(
-        year: "2",
-        developers: listWeigth.value[listWeigth.length - 2].beratBadan,
-        barColor: charts.ColorUtil.fromDartColor(Colors.lightBlue),
-      ),
-      DeveloperSeries(
-        year: "3",
-        developers: listWeigth.value[listWeigth.length - 3].beratBadan,
-        barColor: charts.ColorUtil.fromDartColor(Colors.lightBlue),
-      ),
       // DeveloperSeries(
-      //   year: "4",
-      //   developers: 56.9,
+      //   year: "1",
+      //   developers: listWeigth.value[listWeigth.length - 1].beratBadan,
       //   barColor: charts.ColorUtil.fromDartColor(Colors.lightBlue),
       // ),
       // DeveloperSeries(
-      //   year: "5",
-      //   developers: 54,
-      //   barColor: charts.ColorUtil.fromDartColor(Colors.green),
+      //   year: "2",
+      //   developers: listWeigth.value[listWeigth.length - 2].beratBadan,
+      //   barColor: charts.ColorUtil.fromDartColor(Colors.lightBlue),
       // ),
+      // DeveloperSeries(
+      //   year: "3",
+      //   developers: listWeigth.value[listWeigth.length - 3].beratBadan,
+      //   barColor: charts.ColorUtil.fromDartColor(Colors.lightBlue),
+      // ),
+      DeveloperSeries(
+        year: "4",
+        developers: 56.9,
+        barColor: charts.ColorUtil.fromDartColor(Colors.lightBlue),
+      ),
+      DeveloperSeries(
+        year: "5",
+        developers: 54,
+        barColor: charts.ColorUtil.fromDartColor(Colors.green),
+      ),
     ];
     return Scaffold(
         body: Obx(
