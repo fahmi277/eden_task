@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "458019223285",
+    "firebase_url": "https://supple-kayak-224215-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "supple-kayak-224215",
+    "storage_bucket": "supple-kayak-224215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458019223285:android:8b92984d2c8c91230277bc",
+        "android_client_info": {
+          "package_name": "com.example.test_eden_farm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458019223285-npm7d591b22umkng4fhq7biemccfmq5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXTZYSq3d_Tdn5IWlYnkn4Yk2tUngmLWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458019223285-npm7d591b22umkng4fhq7biemccfmq5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
